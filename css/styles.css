@@ -15,9 +15,9 @@ body {
 
 .container {
   margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
   padding: 0; }
 
 .hero {
@@ -49,7 +49,7 @@ input#bandade-search-input {
   border: none;
   background: #fff;
   transition: .2s all;
-  font-size: 20px;
+  font-size: 2em;
   color: #31D8C1; }
 
 input#bandade-search-input:focus {
@@ -113,3 +113,17 @@ section.search-result a:hover {
 @media (max-width: 520px) {
   .filter-container {
     width: 90%; } }
+
+input.form-control, input.form-control:focus {
+  outline: none;
+  border: 1px solid #E3E3E3;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  font-size: 20px;
+  color: #31D8C1;
+  border-radius: 0; }
+
+input.form-control:focus, input.form-control:focus:focus {
+  outline: none;
+  background: #fff; }

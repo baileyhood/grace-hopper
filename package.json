@@ -1,0 +1,26 @@
+{
+  "name": "grace-hopper",
+  "version": "1.0.0",
+  "description": "![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/800px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baileyhood/grace-hopper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baileyhood/grace-hopper/issues"
+  },
+  "homepage": "https://github.com/baileyhood/grace-hopper#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "node-sass": "^3.6.0",
+    "nodemon": "^1.9.1"
+  }
+}

@@ -10,7 +10,8 @@ function initMap(){
   //  });
   var sectMap = document.getElementsByClassName('result-map')[0];
   map = new google.maps.Map(sectMap, {
-     center: {lat: 44.540, lng: -78.546},
-     zoom: 8
+     center: {lat: 32.7765, lng: -79.9311},
+     zoom: 8,
+     scrollwheel: false,
    });
 }

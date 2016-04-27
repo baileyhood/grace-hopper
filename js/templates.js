@@ -1,7 +1,7 @@
 var templates = {};
 
 templates.searchResultsTemplate = [
-  "<div class='info-container'>",
+  "<div class='info-container '>",
     "<div class='bandade-artist'>",
       "<%= artists %>",
     "</div>",

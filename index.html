@@ -5,7 +5,8 @@
     <title>BandAde</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
-    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8">
   </head>
@@ -24,15 +25,15 @@
       <section class="search-result inactive">
         <div class="filter-container">
           <form id="artist"  method="post">
-            <input type="text" name="search" value="" id="artist-input" placeholder="search artist">
+            <input type="text"  class="form-control search-input" name="search" value="" id="artist-input" placeholder="search artist">
           </form>
           <form id="venue"  method="post">
-            <input type="text" name="search" value="" id="venue-input" placeholder="search venue">
+            <input type="text" name="search" class="form-control search-input"  value="" id="venue-input" placeholder="search venue">
           </form>
           <form id="radius"  method="post">
-            <input type="text" name="search" value="" id="radius-input" placeholder="search radius(# of miles)">
+            <input type="text" name="search" class="form-control search-input" value="" id="radius-input" placeholder="search radius(# of miles)">
           </form>
-          <button type="button" id="back-button" >back to all results</button>
+          <button type="button" class="form-control" id="back-button" >back to all results</button>
           <h3 class="search-results-info"></h3>
         <article class="main">
 
@@ -42,11 +43,10 @@
     </div>
     <script charset="utf-8" src="bower_components/moment/moment.js"></script>
     <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
-
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+
     <script type="text/javascript" src="js/templates.js"></script>
     <script src="js/map.js"></script>
-
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTupUb0468KWAZEPYP1R9k0zpJ_Br0RpA&callback=initMap" async defer>
     </script>
 
